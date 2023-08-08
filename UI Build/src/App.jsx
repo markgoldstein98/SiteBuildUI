@@ -7,9 +7,7 @@ function App() {
   <div>
     <nav className='nav'>
       <h1>New York Times Best Sellers</h1>
-      <span className="material-icons">
-menu
-</span>
+      <span className="material-icons">menu</span>
     </nav>
     <div className='container'>
     <div className='books'>
