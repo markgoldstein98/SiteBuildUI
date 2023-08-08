@@ -11,6 +11,8 @@ body {
 .card {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
+  padding: 10px;
+  justify-content: center;
 }
 
 .nav {
@@ -42,6 +44,7 @@ span {
   padding: 40px;
   font-size: 16px;
   letter-spacing: 0.2em;
+  justify-content: center;
 }
 
 .container {
@@ -52,18 +55,15 @@ span {
 .title {
   font-weight: bold;
   font-size: 36px;
-  text-align: center;
 }
 
 .sub {
   letter-spacing: 0.2em;
   font-size: 12px;
-  text-align: center;
 }
 
 .text {
   font-size: 16px;
-  text-align: center;
 }
 
 .index {
