@@ -10,6 +10,7 @@ body {
 
 .card {
   color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .nav {
@@ -39,10 +40,8 @@ span {
   margin: 1rem;
   margin: 60px;
   padding: 40px;
-  border: 1px solid var(--secondary-color);
   font-size: 16px;
   letter-spacing: 0.2em;
-  text-align: center;
 }
 
 .container {
@@ -50,6 +49,26 @@ span {
   justify-content: center;
 }
 
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.sub {
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.index {
+  text-align: end;
+}
 @media screen and (max-width: 860px) {
   .books {
     grid-template-columns: 2fr;
